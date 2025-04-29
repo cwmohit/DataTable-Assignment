@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "name": "Alice Johnsos",
+      "name": "Alice",
       "email": "alice@example.com",
       "id": "1"
     },
@@ -24,21 +24,6 @@
       "id": "5",
       "name": "Ethan Brown",
       "email": "ethan@example.com"
-    },
-    {
-      "id": "811b",
-      "name": "Mohit kandhari",
-      "email": "cwmohit@gmail.com"
-    },
-    {
-      "id": "cb6c",
-      "name": "Mohit kandhari",
-      "email": "cwmohit@gmail.com"
-    },
-    {
-      "id": "b2fd",
-      "name": "why",
-      "email": "mohitkandhari1211krh@gmail.com"
     }
   ]
 }
