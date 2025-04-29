@@ -12,10 +12,12 @@ First, run the development server:
     │   │     ├──ModalForm.js        # Modal for creating or editing users
     │   │     ├──ConfirmDialog.js    # Modal for confirming delete action
     │   │     ├──TableToolbar.js     # Toolbar for search and visibility toggle of columns
-    │   ├── /lib         
-    │   │   ├──apiService.js       # API service for fetching data, handling requests
-    │   ├── data                # JSON server Data
-    │   │   ├──db.json
+    ├── /pages         
+    │   ├── index.js  
+    ├── /lib         
+    │   ├──apiService.js       # API service for fetching data, handling requests
+    ├── data                # JSON server Data
+    │   ├──db.json
     └── ...
 
 ### View: [DEMO](https://github.com/user-attachments/assets/3095c0cf-702c-4919-ba2b-2581c41cdb54)
@@ -24,8 +26,16 @@ First, run the development server:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-repo/data-table-project.git
-   cd data-table-project
+   git clone https://github.com/cwmohit/DataTable-Assignment.git
+   cd DataTable-Assignment
+  
+```bash
+npm install
+npm run dev
+
+# To run json-server
+npx json-server --watch data/db.json --port 3001
+```
 
 https://github.com/user-attachments/assets/3095c0cf-702c-4919-ba2b-2581c41cdb54
 

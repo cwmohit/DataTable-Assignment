@@ -164,7 +164,6 @@ export default function DataTable() {
         </button>
       </div>
 
-      {/* Modal for Create/Edit */}
       {openForm && (
         <ModalForm
           initialData={editData}
@@ -173,7 +172,6 @@ export default function DataTable() {
         />
       )}
 
-      {/* Confirm Dialog for Delete */}
       {confirmDelete && (
         <ConfirmDialog
           onConfirm={() => {
