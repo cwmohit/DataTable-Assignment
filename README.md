@@ -3,19 +3,22 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 First, run the development server:
+### A typical top-level directory layout
+    .
+    ├── ...
+    ├── /src                  
+    │   ├── /components 
+    │   │   ├──DataTable.js        # Main table component with logic for CRUD, sorting, filtering, and ├──pagination
+    │   │     ├──ModalForm.js        # Modal for creating or editing users
+    │   │     ├──ConfirmDialog.js    # Modal for confirming delete action
+    │   │     ├──TableToolbar.js     # Toolbar for search and visibility toggle of columns
+    │   ├── /lib         
+    │   │   ├──apiService.js       # API service for fetching data, handling requests
+    │   ├── data                # JSON server Data
+    │   │   ├──db.json
+    └── ...
 
-/src
-  /components
-    DataTable.js        # Main table component with logic for CRUD, sorting, filtering, and pagination
-    ModalForm.js        # Modal for creating or editing users
-    ConfirmDialog.js    # Modal for confirming delete action
-    TableToolbar.js     # Toolbar for search and visibility toggle of columns
-  /lib
-    apiService.js       # API service for fetching data, handling requests
-  /styles
-    (CSS or Tailwind files for styling)
-  /assets
-    (Image or static files)
+### View: [DEMO](https://github.com/user-attachments/assets/3095c0cf-702c-4919-ba2b-2581c41cdb54)
 
 
 1. Clone the repository:
@@ -24,6 +27,7 @@ First, run the development server:
    git clone https://github.com/your-repo/data-table-project.git
    cd data-table-project
 
+https://github.com/user-attachments/assets/3095c0cf-702c-4919-ba2b-2581c41cdb54
 
 ```bash
 npm run dev
