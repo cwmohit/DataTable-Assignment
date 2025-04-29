@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "name": "Alice Johnsos",
+      "email": "alice@example.com",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "email": "bob@example.com"
+    },
+    {
+      "id": "3",
+      "name": "Charlie Lee",
+      "email": "charlie@example.com"
+    },
+    {
+      "id": "4",
+      "name": "Dana White",
+      "email": "dana@example.com"
+    },
+    {
+      "id": "5",
+      "name": "Ethan Brown",
+      "email": "ethan@example.com"
+    },
+    {
+      "id": "811b",
+      "name": "Mohit kandhari",
+      "email": "cwmohit@gmail.com"
+    },
+    {
+      "id": "cb6c",
+      "name": "Mohit kandhari",
+      "email": "cwmohit@gmail.com"
+    },
+    {
+      "id": "b2fd",
+      "name": "why",
+      "email": "mohitkandhari1211krh@gmail.com"
+    }
+  ]
+}

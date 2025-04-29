@@ -4,6 +4,27 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+/src
+  /components
+    DataTable.js        # Main table component with logic for CRUD, sorting, filtering, and pagination
+    ModalForm.js        # Modal for creating or editing users
+    ConfirmDialog.js    # Modal for confirming delete action
+    TableToolbar.js     # Toolbar for search and visibility toggle of columns
+  /lib
+    apiService.js       # API service for fetching data, handling requests
+  /styles
+    (CSS or Tailwind files for styling)
+  /assets
+    (Image or static files)
+
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-repo/data-table-project.git
+   cd data-table-project
+
+
 ```bash
 npm run dev
 # or
